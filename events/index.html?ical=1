@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Humane - ECPv5.1.6//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Humane
+X-ORIGINAL-URL:https://humane.xoothemes.com
+X-WR-CALDESC:Events for Humane
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20220101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220529
+DTEND;VALUE=DATE:20220604
+DTSTAMP:20200920T183216
+CREATED:20170920T073617Z
+LAST-MODIFIED:20200414T200324Z
+UID:3515-1653782400-1654300799@humane.xoothemes.com
+SUMMARY:Heart to heart event
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched.
+URL:https://humane.xoothemes.com/event/heart-to-heart-event/
+LOCATION:Dhaka
+CATEGORIES:orphan
+ATTACH;FMTTYPE=image/jpeg:https://humane.xoothemes.com/wp-content/uploads/2017/09/event9-1100x564.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220529
+DTEND;VALUE=DATE:20220604
+DTSTAMP:20200920T183216
+CREATED:20170920T073652Z
+LAST-MODIFIED:20200414T200257Z
+UID:3516-1653782400-1654300799@humane.xoothemes.com
+SUMMARY:Celebration giving
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched.
+URL:https://humane.xoothemes.com/event/celebration-giving/
+CATEGORIES:orphan
+ATTACH;FMTTYPE=image/jpeg:https://humane.xoothemes.com/wp-content/uploads/2017/09/event11-1100x564.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220529
+DTEND;VALUE=DATE:20220604
+DTSTAMP:20200920T183216
+CREATED:20170920T073652Z
+LAST-MODIFIED:20200414T200337Z
+UID:3517-1653782400-1654300799@humane.xoothemes.com
+SUMMARY:Mini Fundraiser
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched.
+URL:https://humane.xoothemes.com/event/mini-fundraiser/
+ATTACH;FMTTYPE=image/jpeg:https://humane.xoothemes.com/wp-content/uploads/2018/02/project-6-2.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220529
+DTEND;VALUE=DATE:20220604
+DTSTAMP:20200920T183216
+CREATED:20170920T073655Z
+LAST-MODIFIED:20200414T200306Z
+UID:3518-1653782400-1654300799@humane.xoothemes.com
+SUMMARY:Concert for donation
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched.
+URL:https://humane.xoothemes.com/event/concert-for-donation/
+CATEGORIES:concert
+ATTACH;FMTTYPE=image/jpeg:https://humane.xoothemes.com/wp-content/uploads/2018/02/project-7.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220529
+DTEND;VALUE=DATE:20220604
+DTSTAMP:20200920T183216
+CREATED:20170920T073705Z
+LAST-MODIFIED:20200414T200328Z
+UID:3519-1653782400-1654300799@humane.xoothemes.com
+SUMMARY:Music for charity
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched.
+URL:https://humane.xoothemes.com/event/music-for-charity/
+CATEGORIES:charity,orphan
+ATTACH;FMTTYPE=image/jpeg:https://humane.xoothemes.com/wp-content/uploads/2017/09/events-5.jpg
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220529
+DTEND;VALUE=DATE:20220604
+DTSTAMP:20200920T183216
+CREATED:20170920T073708Z
+LAST-MODIFIED:20200414T200344Z
+UID:71-1653782400-1654300799@humane.xoothemes.com
+SUMMARY:Ride for a promise
+DESCRIPTION:Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. Lorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched. \nLorem Ipsum is simply dummy text of the printing type industry. Our Ipsum has been the industry’s standard dummy text ever the 1500 when unknown printer took galley homero untouched.
+URL:https://humane.xoothemes.com/event/ride-for-a-promise/
+CATEGORIES:orphan,syrian
+ATTACH;FMTTYPE=image/jpeg:https://humane.xoothemes.com/wp-content/uploads/2017/09/events-f1.jpg
+END:VEVENT
+END:VCALENDAR
