@@ -1,0 +1,9 @@
+.charity-call-to-action h1 {
+    font-size: 3em;
+}
+
+.banner-text-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
