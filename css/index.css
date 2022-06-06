@@ -7,3 +7,19 @@
     align-items: center;
     justify-content: center;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.black {
+    color:  black;
+}
+
+ul {
+    line-height: 40px;
+}
