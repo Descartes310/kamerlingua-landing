@@ -106,6 +106,14 @@ p {
   color: #888;
 }
 
+.address li {
+  padding-top: 20px;
+}
+
+.footer-title {
+  padding-bottom: 20px;
+}
+
 /* 
 ---------------------------------------------
 global styles
@@ -118,12 +126,12 @@ body {
 }
 
 ::selection {
-  background: #f1556a;
+  background: #feba3a;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f1556a;
+  background: #feba3a;
   color: #fff;
 }
 
@@ -147,7 +155,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #ffd54f;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -159,14 +167,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #feba3a;
 }
 
 a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #ffd54f;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -178,7 +186,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f1556a;
+  background-color: #feba3a;
 }
 
 button.main-button {
@@ -188,7 +196,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #ffd54f;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -200,7 +208,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #f1556a;
+  background-color: #feba3a;
 }
 
 
@@ -219,16 +227,19 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #f4813f;
+  color: #ffd54f;
 }
 
 .center-heading p {
-  font-size: 15px;
-  color: #888;
+  font-size: 17px;
+  color: rgb(83, 83, 83);
   text-align: center;
+  line-height: 35px;
 }
 
-
+.text-left {
+  text-align: left !important;
+}
 /* 
 ---------------------------------------------
 header
@@ -251,11 +262,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: #ffd54f!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: #ffd54f!important;
 }
 
 .header-area {
@@ -332,7 +343,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #fba70b;
+  color: #ffd54f;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -397,12 +408,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fba70b;
+  background: #ffd54f;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fba70b!important;
+  color: #ffd54f!important;
   padding-left: 25px;
 }
 
@@ -477,6 +488,10 @@ header
   content: "";
 }
 
+.rounded {
+  border-radius: 50%;
+}
+
 .header-area .main-nav .menu-trigger span {
   top: 16px;
 }
@@ -538,7 +553,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fba70b;
+  color: #ffd54f;
 }
 
 @media (max-width: 1200px) {
@@ -606,7 +621,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fba70b!important;
+    color: #ffd54f!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -657,7 +672,7 @@ welcome
   width: 100%;
   height: 100vh;
   min-height: 793px;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/right-bg-decor.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -665,8 +680,17 @@ welcome
 .welcome-area .header-text .left-text {
   position: relative;
   align-self: center;
-  margin-top: 35%;
+  margin-top: 10%;
   transform: perspective(1px) translateY(-30%) !important;
+}
+
+.welcome-area .header-text .app-img {
+  position: relative;
+  align-self: center;
+  margin-top: 25%;
+  display: flex;
+  justify-content: flex-end;
+  transform: perspective(1px) translateY(-35%) rotate(10deg) translateX(20%) !important;
 }
 
 .welcome-area .header-text h1 {
@@ -680,7 +704,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: #ffd54f;
 }
 
 .welcome-area .header-text p {
@@ -704,6 +728,10 @@ welcome
   .welcome-area .header-text .left-text {
     margin-top: 50%;
   }
+  .welcome-area .header-text .app-img {
+    margin-top: 50%;
+  }
+
   .welcome-area .header-text {
     width: 50%;
     margin-left: 5%;
@@ -713,14 +741,20 @@ welcome
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
+    min-height: 500px;
   }
   .welcome-area .header-text {       
     width: 92%;
-    padding-top: 793px;
+    /* padding-top: 793px; */
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
     transform: none !important;
+  }
+  .welcome-area .header-text .app-img {
+    margin-top: 5%;
+    transform: none !important;
+    display: none;
   }
 }
 @media (max-width: 810px) {
@@ -729,7 +763,7 @@ welcome
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
+    /* padding-top: 100%; */
     margin-left: 0;
   }
     
@@ -771,7 +805,7 @@ about
   left: 45px;
   font-size: 100px;
   font-weight: 600;
-  color: #fdefe9;
+  color: #ffd54f38;
 }
 
 .features-item img {
@@ -863,7 +897,7 @@ testimonials
 }
 
 #testimonials {
-  padding-top: 100px;
+  padding-top: 30px;
   position: relative;
   z-index: 9;
 }
@@ -873,8 +907,8 @@ testimonials
 }
 
 #testimonials .item .testimonial-content {
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: rgb(243, 231, 79);
+  background: linear-gradient(145deg, rgb(243, 231, 79) 0%, rgb(231, 163, 78) 100%);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
@@ -927,8 +961,8 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: rgb(243, 231, 79);
+  background: linear-gradient(145deg, rgb(243, 231, 79) 0%, rgb(231, 163, 78) 100%);
   position: absolute;
 }
 
@@ -944,8 +978,8 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: rgb(243, 231, 79);
+  background: linear-gradient(145deg, rgb(243, 231, 79) 0%, rgb(231, 163, 78) 100%);
   position: absolute;
 }
 
@@ -980,11 +1014,10 @@ footer
 footer {
   margin-top: 200px;
   padding-top: 120px;
-  background-image: url(../images/footer-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  padding-bottom: 5%;
   width: 100%;
+  background-color: black;
+  color: white;
 }
 
 footer .footer-content {
@@ -1060,7 +1093,7 @@ footer .right-content {
 
 .footer-content .right-content h2 em {
   font-style: normal;
-  color: #fba70b;
+  color: #ffd54f;
 }
 
 .footer-content .right-content p {
@@ -1107,8 +1140,8 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #fba70b;
-  border-color: #fba70b;
+  background-color: #ffd54f;
+  border-color: #ffd54f;
   color: #fff;
 }
 
@@ -1158,7 +1191,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
+  background-image: linear-gradient(145deg, #ffd54f 0%, #e7a822 100%);
   left: 0;
   right: 0;
   top: 0;
