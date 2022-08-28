@@ -576,7 +576,6 @@ header
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
-    height: 80px;
     box-shadow: none;
     text-align: center;
   }
@@ -769,7 +768,7 @@ welcome
     font-size: 2.3em;
     line-height: 130%;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .welcome-area .header-text {
