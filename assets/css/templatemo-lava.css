@@ -771,11 +771,6 @@ welcome
     margin-top: 5%;
   }
 
-  .welcome-area .header-text .left-text {
-    margin-top: 15%;
-    transform: none !important;
-  }
-
   .welcome-area .header-text {
     /* padding-top: 100%; */
     margin-left: 0;
@@ -1206,7 +1201,7 @@ footer .sub-footer p {
     width: 20%;
   }
   .welcome-area .header-text h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     line-height: 120%;
   }
 
