@@ -749,7 +749,7 @@ welcome
     /* padding-top: 793px; */
   }
   .welcome-area .header-text .left-text {
-    margin-top: 20%;
+    margin-top: 15%;
     transform: none !important;
   }
   .welcome-area .header-text .app-img {
@@ -769,6 +769,11 @@ welcome
     line-height: 130%;
     text-align: center;
     margin-top: 5%;
+  }
+
+  .welcome-area .header-text .left-text {
+    margin-top: 20%;
+    transform: none !important;
   }
 
   .welcome-area .header-text {
@@ -1194,6 +1199,17 @@ footer .sub-footer p {
   .logo-img {
     width: 50%;
   }
+}
+
+@media (max-width: 1200px) {
+  .logo-img {
+    width: 20%;
+  }
+  .welcome-area .header-text h1 {
+    font-size: 2em;
+    line-height: 120%;
+  }
+
 }
 
 /* 
