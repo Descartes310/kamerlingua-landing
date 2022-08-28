@@ -1196,17 +1196,6 @@ footer .sub-footer p {
   }
 }
 
-@media (max-width: 1200px) {
-  .logo-img {
-    width: 20%;
-  }
-  .welcome-area .header-text h1 {
-    font-size: 2.3em;
-    line-height: 120%;
-  }
-
-}
-
 /* 
 ---------------------------------------------
 preloader
